@@ -1,0 +1,26 @@
+Request received: []
+Invalid request method.
+Request received: {"name":"a","family":"f1","description":"das","image":"as"}
+Sanitized Input: Name=a, Family=f1, Description=das, Image=as
+Data inserted successfully.
+Request received: {"name":"p10","family":"pf10","description":"asdsadsa","image":"https:\/\/images.unsplash.com\/photo-1501004318641-b39e6451bec6?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+Sanitized Input: Name=p10, Family=pf10, Description=asdsadsa, Image=https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+Data inserted successfully.
+Request received: {"name":"custard apple\t","family":"Annonaceae","description":"consists of custard apple, cherimoya, soursop, sweetsop, ilama","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/85\/Annona_squamosa.jpg\/330px-Annona_squamosa.jpg"}
+Sanitized Input: Name=custard apple, Family=Annonaceae, Description=consists of custard apple, cherimoya, soursop, sweetsop, ilama, Image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Annona_squamosa.jpg/330px-Annona_squamosa.jpg
+Data inserted successfully.
+Request received: {"name":"laurel","family":"Lauraceae","description":"consists of laurel, avocado, sassafras, cinnamon\r\n","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/15\/Lauraceae_sp_Blanco2.360.png\/330px-Lauraceae_sp_Blanco2.360.png"}
+Sanitized Input: Name=laurel, Family=Lauraceae, Description=consists of laurel, avocado, sassafras, cinnamon, Image=https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Lauraceae_sp_Blanco2.360.png/330px-Lauraceae_sp_Blanco2.360.png
+Data inserted successfully.
+Request received: {"name":"pepper","family":"Piperaceae","description":"consists of black pepper","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fd\/Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg\/330px-Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg"}
+Sanitized Input: Name=pepper, Family=Piperaceae, Description=consists of black pepper, Image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg/330px-Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg
+Data inserted successfully.
+Request received: {"name":"withania","family":"psychoactive","description":"dhsdhhshdd","image":"ss"}
+Sanitized Input: Name=withania, Family=psychoactive, Description=dhsdhhshdd, Image=ss
+Data inserted successfully.
+Request received: {"name":"wedw","family":"dsf","description":"dsf","image":"fsd"}
+Sanitized Input: Name=wedw, Family=dsf, Description=dsf, Image=fsd
+Data inserted successfully.
+Request received: {"name":"dd","family":"asdasdd","description":"sadasd","image":"asdasda"}
+Sanitized Input: Name=dd, Family=asdasdd, Description=sadasd, Image=asdasda
+Data inserted successfully.
